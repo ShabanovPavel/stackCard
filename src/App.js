@@ -24,7 +24,7 @@ export default class App extends Component {
           heightCard={450}
           widthCard={250}
           scalePaddingWidth={15}
-          scalePaddingHeight={20}
+          scalePaddingHeight={10}
         />
       </View>
     );

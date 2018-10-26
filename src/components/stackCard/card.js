@@ -5,7 +5,7 @@ export default class Card extends Component {
   render() {
     const { content } = this.props;
     return (
-      <View style={{ flex: 1, borderRadius: 7, ...content.props.style }}>
+      <View style={{ flex: 1, borderRadius: 10, ...content.props.style }}>
         {content}
       </View>
     );

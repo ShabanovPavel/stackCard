@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
 import StackCards from "./components/stackCard/index";
-import TestC from "./components/stackCard/testComponent";
+import TestC from "./components/testComponent";
 
 const Cards = [
   <TestC text={"дизайн!"} style={{ backgroundColor: "red" }} />,
